@@ -10,6 +10,6 @@ if __name__ == "__main__":
         i = 1
         res = 0
         while i <= argc:
-            res += argv[i]
+            res += int(argv[i])
             i += 1
         print("{:d}".format(res))
