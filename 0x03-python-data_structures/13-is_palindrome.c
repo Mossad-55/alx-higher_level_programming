@@ -28,7 +28,7 @@ int is_palindrome(listint_t **head)
 			cpy = cpy->next;
 			cmcpy = *head;
 			for (i = len; i > 0; i--)
-				cmcpy = cmpcpy->next;
+				cmcpy = cmcpy->next;
 		}
 		else
 			break;
